@@ -60,6 +60,7 @@ public class SendOTP extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(SendOTP.this, Selection.class));
+                finish();
             }
         });
 
@@ -123,8 +124,8 @@ public class SendOTP extends AppCompatActivity {
                                             Intent i = new Intent(SendOTP.this, com.example.chatapp.Login.VerifyOTP.class);
                                             i.putExtra("email", email);
                                             i.putExtra("code", code);
-                                            finish();
                                             startActivity(i);
+                                            finish();
                                         } catch (MessagingException e) {
                                             //Toast.makeText(getApplicationContext(), e.getMessage(), Toast.LENGTH_LONG).show();
                                             Toast.makeText(SendOTP.this, "Sorry there is a problem in this Email \nPlease Try another valid email to Register", Toast.LENGTH_SHORT).show();

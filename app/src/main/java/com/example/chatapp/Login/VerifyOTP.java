@@ -47,6 +47,7 @@ public class VerifyOTP extends AppCompatActivity {
                     Intent i = new Intent(VerifyOTP.this, Register.class);
                     i.putExtra("email", email);
                     startActivity(i);
+                    finish();
                 } else {
                     Toast.makeText(VerifyOTP.this, "Incorrect otp", Toast.LENGTH_LONG).show();
                 }

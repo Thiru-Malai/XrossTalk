@@ -90,6 +90,7 @@ public class AddImage extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(AddImage.this, com.example.chatapp.MainActivity.class));
+                finish();
             }
         });
 
@@ -238,6 +239,7 @@ public class AddImage extends AppCompatActivity {
             mreference.child("Users").child(userid).child("about").setValue(modifiedAbout);
 
             startActivity(new Intent(AddImage.this, com.example.chatapp.MainActivity.class));
+            finish();
         }
 
 
@@ -252,6 +254,7 @@ public class AddImage extends AppCompatActivity {
             Toast.makeText(AddImage.this, "Profile Updated !!", Toast.LENGTH_LONG).show();
 
             startActivity(new Intent(AddImage.this, com.example.chatapp.MainActivity.class));
+            finish();
         }
 
 
