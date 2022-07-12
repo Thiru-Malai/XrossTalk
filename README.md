@@ -21,4 +21,3 @@ Incharge:
 4. Mrs. S. Karthiga - skait@tce.edu
 
 
-![image](https://user-images.githubusercontent.com/73980589/178464678-1ea15b4d-2e81-42d6-aa77-763dce484838.png)
