@@ -1,6 +1,9 @@
 # XrossTalk
 XrossTalk - Chat, Explore, Network &amp; Feel Safe.
 
+![app_symbol_2](https://user-images.githubusercontent.com/73980589/178442232-ff40fffa-0071-4707-ae7f-d88a546ff99b.png)
+
+
 App developed by students of IT - TCE.
 
 Team:
