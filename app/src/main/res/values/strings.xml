@@ -1,0 +1,155 @@
+<resources>
+    <string name="app_name">Xrosstalk</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="xross_talk">Xross Talk</string>
+    <string name="register">Register</string>
+    <string name="pick_a_username">Pick a username</string>
+    <string name="how_should_everyone_call_you">How should everyone call you ?</string>
+    <string name="back_button">Back_Button</string>
+    <string name="password">Password</string>
+    <string name="you_can_always_change_this_later">You can always change this later</string>
+    <string name="select_your_tag">Select your tag:</string>
+    <string name="how">How?</string>
+    <string name="helper">HELPER</string>
+    <string name="reformer">REFORMER</string>
+    <string name="loyalist">LOYALIST</string>
+    <string name="about">About</string>
+    <string name="email">Email</string>
+    <string name="skip">Skip</string>
+    <string name="get_started">Get Started</string>
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="we_re_so_exicted_to_see_you_again">We’re so exicted to see you again!</string>
+    <string name="login">LOGIN</string>
+    <string name="next">NEXT</string>
+    <string name="type">Type...</string>
+    <string name="verify">Verification</string>
+    <string name="emailentry">Enter Email</string>
+    <string name="emails">Email.....</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="xrosstalk">Xrosstalk</string>
+    <string name="type_a_message">Type a Message....</string>
+    <string name="send">SEND</string>
+    <string name="mahesha">Mahesha</string>
+    <string name="happy">HAPPY</string>
+    <string name="romantic">ROMANTIC</string>
+    <string name="broken">BROKEN</string>
+    <string name="excited">EXCITED</string>
+    <string name="high">HIGH</string>
+    <string name="sad">SAD</string>
+    <string name="attached">ATTACHED</string>
+    <string name="confused">CONFUSED</string>
+    <string name="angry">ANGRY</string>
+    <string name="normal">NORMAL</string>
+    <string name="block">Block</string>
+    <string name="delete_chat">Clear Chat</string>
+
+
+    <string name="enter_your_email">Enter your email</string>
+    <string name="enter_email">Enter email</string>
+    <string name="your_email_address">Your email address</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="verification">Verification</string>
+    <string name="signup">Register</string>
+
+    <string name="welcome_to_xrosstalk">Welcome to Xrosstalk</string>
+    <string name="app_name_caps">XROSSTALK</string>
+    <string name="password_recovery">Password Recovery</string>
+
+
+    <string name="leader">LEADER</string>
+    <string name="peace_maker">PEACE MAKER</string>
+    <string name="challenger">CHALLENGER</string>
+    <string name="enthusiast">ENTHUSIAST</string>
+    <string name="investigator">INVESTIGATOR</string>
+    <string name="individualist">INDIVIDUALIST</string>
+    <string name="hello">Hello</string>
+    <string name="popularity">Popularity</string>
+    <string name="new1">NEW</string>
+
+
+    <string name="say_hi">Say Hi !</string>
+    <string name="connect">Connect +</string>
+    <string name="message">Message…</string>
+    <string name="neha_dupia">Neha Dupia</string>
+    <string name="_2_05_am">2:05 AM</string>
+    <string name="ranjvjay_singha">Ranjvjay Singha</string>
+    <string name="ranjvijay_sinha">Ranjvijay Sinha</string>
+    <string name="_1">1</string>
+    <string name="_3">3</string>
+    <string name="_10">10</string>
+    <string name="explore">Explore</string>
+    <string name="app_label">App Label</string>
+    <string name="search">Search</string>
+    <string name="popularity_">Popularity :</string>
+    <string name="new_popularity">NEW</string>
+    <string name="connect_plus">Connect +</string>
+    <string name="requested">Requested</string>
+    <string name="explorer">Explorer</string>
+    <string name="chat">Chat</string>
+    <string name="more">More</string>
+    <string name="notification">Notification</string>
+    <string name="chat_requests">Chat Requests</string>
+    <string name="connection_requests">Connection Requests</string>
+    <string name="_7">7+</string>
+    <string name="_10_">10+</string>
+    <string name="ignore">Ignore</string>
+    <string name="boomer_bathri">Boomer Bathri</string>
+    <string name="say_hi_">Say Hi…</string>
+    <string name="share_app">Share App</string>
+    <string name="settings">Settings</string>
+    <string name="tags">Tags</string>
+    <string name="terms_conditions">Terms and Condition</string>
+    <string name="log_out">Log out</string>
+    <string name="about_us">About us</string>
+    <string name="blocked">Blocked</string>
+    <string name="profile">Profile</string>
+    <string name="save">Save</string>
+    <string name="ok_text">ok</string>
+    <string name="visitprofile">Visit profile</string>
+    <string-array name="Settings">
+        <item>Profile</item>
+        <item>Blocked</item>
+        <item>Tags</item>
+        <item>@string/terms_conditions</item>
+        <item>About Us</item>
+        <item>Log Out</item>
+    </string-array>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="title_activity_privacy">PrivacyActivity</string>
+    <string name="aboutprofile">About :</string>
+    <string name="thedharshan"></string>
+    <string name="connections">Connections</string>
+    <string name="_80">80</string>
+    <string name="noticed">Noticed</string>
+    <string name="recognised">Recognised</string>
+    <string name="wellknowm">Well known</string>
+    <string name="respected">Respected</string>
+    <string name="famous">Famous</string>
+    <string name="popular">Popular</string>
+    <string name="influencer">Influencer</string>
+    <string name="celebrity">Celebrity</string>
+    <string name="star">Star</string>
+    <string name="bigshot">Big Shot</string>
+    <string name="ikon">Ikon</string>
+    <string name="poineer">Poineer</string>
+    <string name="ace">ace</string>
+    <string name="emptypage">Invite Your Friends to Xrosstalk \n \tfor More Wisdom and Fun, \n Just Like You Did with Your Life</string>
+    <string name="previous">previous</string>
+
+
+</resources>

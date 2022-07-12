@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    android:layout_height="80dp">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image_user_userfrag"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/userimageicon" />
+
+
+    <TextView
+        android:id="@+id/username_userfrag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@id/image_user_userfrag"
+        android:fontFamily="@font/montserrat"
+        android:text="User Name"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:id="@+id/image_online"
+        android:visibility="gone"
+        android:layout_marginLeft="-15dp"
+        android:layout_below="@id/username_userfrag"
+        android:layout_toEndOf="@id/image_user_userfrag"
+        android:layout_toRightOf="@id/image_user_userfrag" />
+
+
+    <ImageView
+        android:id="@+id/image_offline"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_below="@id/username_userfrag"
+        android:layout_marginLeft="-15dp"
+        android:layout_toEndOf="@id/image_user_userfrag"
+        android:layout_toRightOf="@id/image_user_userfrag"
+        android:src="@drawable/bluebutton"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/txttagonlayouts"
+        android:layout_width="70dp"
+        android:layout_height="25dp"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/username_userfrag"
+        android:background="@drawable/stroke_background"
+        android:fontFamily="@font/montserrat"
+        android:paddingTop="5dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="8dp"
+        app:cornerRadius="36dp" />
+
+
+    <TextView
+        android:id="@+id/lastMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username_userfrag"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="2dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Message"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/txtLastMessagetime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:fontFamily="@font/montserrat"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.983"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.21" />
+
+
+    <ImageView
+        android:id="@+id/backgroundUnreadMsgCount"
+        android:layout_width="19dp"
+        android:layout_height="22dp"
+        android:layout_below="@+id/txtLastMessagetime"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.984"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintVertical_bias="0.853"
+        app:srcCompat="@drawable/notification" />
+
+    <TextView
+        android:id="@+id/txtUnreadMsgCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/backgroundUnreadMsgCount"
+        android:layout_alignBottom="@+id/backgroundUnreadMsgCount"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="2dp"
+        android:text="@string/_1"
+        android:textStyle="bold"
+        app:layout_constraintVertical_bias="0.105" />
+
+</RelativeLayout>

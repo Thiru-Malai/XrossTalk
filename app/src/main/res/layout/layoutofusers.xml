@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    android:layout_height="wrap_content">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image_user_userfrag"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/userimageicon" />
+
+    <RelativeLayout
+        android:id="@+id/username_holder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/image_user_userfrag">
+
+        <TextView
+            android:id="@+id/username_userfrag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_centerVertical="true"
+            android:fontFamily="@font/montserrat"
+            android:text="User Name"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txttagonlayouts"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="1dp"
+            android:layout_toRightOf="@id/username_userfrag"
+            android:background="@drawable/stroke_background"
+            android:fontFamily="@font/montserrat"
+            android:gravity="center"
+            android:paddingHorizontal="5dp"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="10sp" />
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/lastMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username_holder"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="2dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Popularity:"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+
+    <TextView
+        android:id="@+id/lastMessage2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username_holder"
+        android:layout_marginLeft="155dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/montserrat"
+        android:text="NEW"
+        android:textColor="@color/orange"
+        android:textSize="12sp"
+
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:id="@+id/image_online"
+        android:visibility="gone"
+        android:layout_marginLeft="-15dp"
+        android:src="@color/green"
+        android:layout_below="@id/username_holder"
+        android:layout_toEndOf="@id/image_user_userfrag"
+        android:layout_toRightOf="@id/image_user_userfrag" />
+
+
+    <ImageView
+        android:id="@+id/image_offline"
+        android:layout_width="29dp"
+        android:layout_height="29dp"
+
+        android:layout_below="@id/username_holder"
+        android:layout_alignEnd="@+id/image_user_userfrag"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="-15dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="41dp"
+        android:layout_toEndOf="@id/image_user_userfrag"
+        android:layout_toRightOf="@id/image_user_userfrag"
+        android:src="@color/white"
+        android:visibility="gone" />
+
+
+    <Button
+        android:id="@+id/follow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="@font/montserrat"
+        android:text="connect+"
+        android:backgroundTint="@color/orange"
+        android:textColor="@color/white"
+        android:textSize="10sp" />
+
+
+    <Button
+        android:id="@+id/decline"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="150dp"
+        android:fontFamily="@font/montserrat"
+        android:textSize="10sp"
+        android:text="decline"
+        android:textColor="@color/white"
+        android:visibility="gone" />
+
+
+</RelativeLayout>

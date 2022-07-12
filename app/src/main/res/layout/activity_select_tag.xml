@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/select_tags"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:backgroundTint="@color/black"
+    tools:context=".Login.SelectTag">
+
+    <RadioGroup
+        android:id="@+id/tagselection"
+        android:layout_width="303dp"
+        android:layout_height="494dp"
+        android:background="@color/black"
+        android:backgroundTint="@color/black"
+        android:scrollbarAlwaysDrawHorizontalTrack="false"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.497">
+
+        <RadioButton
+            android:id="@+id/tag1"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/montserrat"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/orange"
+            android:text="@string/helper"
+            android:textColor="@color/helper" />
+
+        <RadioButton
+            android:id="@+id/tag2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:buttonTint="@color/orange"
+            android:text="@string/reformer"
+            android:textColor="@color/reformer" />
+
+        <RadioButton
+            android:id="@+id/tag3"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/montserrat"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/orange"
+            android:text="@string/loyalist"
+            android:textColor="@color/loyalist" />
+
+        <RadioButton
+            android:id="@+id/tag4"
+            android:layout_width="match_parent"
+            android:fontFamily="@font/montserrat"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/orange"
+            android:text="@string/peace_maker"
+            android:textColor="@color/peacemaker" />
+
+        <RadioButton
+            android:id="@+id/tag5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:buttonTint="@color/orange"
+            android:text="@string/challenger"
+            android:textColor="@color/challenger" />
+
+        <RadioButton
+            android:id="@+id/tag6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/orange"
+            android:text="@string/leader"
+            android:fontFamily="@font/montserrat"
+            android:textColor="@color/leader" />
+
+        <RadioButton
+            android:id="@+id/tag7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/orange"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/enthusiast"
+            android:textColor="@color/enthusiast" />
+
+        <RadioButton
+            android:id="@+id/tag8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:buttonTint="@color/orange"
+            android:text="@string/investigator"
+            android:textColor="@color/investigator" />
+
+        <RadioButton
+            android:id="@+id/tag9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/orange"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/individualist"
+            android:textColor="@color/individualist" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnCancel"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:backgroundTint="@color/boxbg"
+                android:text="@android:string/cancel" />
+
+            <Button
+                android:id="@+id/btnSaveTag"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="@string/save" />
+        </LinearLayout>
+
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

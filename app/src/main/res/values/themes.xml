@@ -1,0 +1,55 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ChatApp" parent="Theme.MaterialComponents.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorPrimaryVariant">@color/orange</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/black</item>
+        <item name="colorSecondaryVariant">@color/black</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/black</item>
+        <!-- Customize your theme here. -->
+
+
+        <item name="android:popupAnimationStyle">@style/roundedImageViewRounded</item>
+        <item name="android:popupTheme">@style/roundedImageViewRounded</item>
+
+        <item name="popupMenuBackground">@drawable/popup_menu</item>
+        <item name="itemBackground">@drawable/popup_menu</item>
+
+        <item name="android:itemTextAppearance">@style/AppTheme.TextAppearance.Popup</item>
+        <item name="android:windowActivityTransitions">true</item>
+
+
+    </style>
+
+    <style name="AppTheme.TextAppearance.Popup" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="fontFamily">@font/montserrat</item>
+    </style>
+
+    <style name="TextAppearance.App.Button" parent="TextAppearance.MaterialComponents.Button">
+        <item name="fontFamily">@font/montserrat</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+    </style>
+
+    <style name="TextAppearance.AppCompat.Body1">
+        <item name="fontFamily">@font/montserrat</item>
+        <item name="android:fontFamily">@font/montserrat</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        ...
+        <item name="colorButtonNormal">@color/orange</item>
+        ...
+    </style>
+
+    <style name="roundedImageViewRounded">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+
+</resources>

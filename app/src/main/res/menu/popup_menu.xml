@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+
+    <item
+        android:id="@+id/happy"
+        android:title="HAPPY"
+
+        />
+
+
+    <item
+        android:id="@+id/romantic"
+
+        android:title="ROMANTIC" />
+    <item
+        android:id="@+id/broken"
+        android:title="BROKEN" />
+    <item
+        android:id="@+id/excited"
+        android:title="EXCITED" />
+    <item
+        android:id="@+id/high"
+        android:title="HIGH" />
+    <item
+        android:id="@+id/sad"
+        android:title="SAD" />
+    <item
+        android:id="@+id/attached"
+        android:title="ATTACHED" />
+    <item
+        android:id="@+id/confused"
+        android:title="CONFUSED" />
+    <item
+        android:id="@+id/angry"
+        android:title="ANGRY" />
+    <item
+        android:id="@+id/normal"
+        android:title="NORMAL" />
+</menu>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+
+
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:backgroundTint="@color/black"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:cardMaxElevation="10dp"
+        app:cardPreventCornerOverlap="true"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingVertical="10dp">
+
+            <RelativeLayout
+                android:id="@+id/declinebtnHolder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="10dp"
+                android:layout_centerVertical="true">
+
+                <ImageView
+                    android:id="@+id/ignore_chat1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/montserrat"
+                    android:src="@drawable/ic_baseline_highlight_off_24" />
+
+                <TextView
+                    android:id="@+id/declinebtntext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ignore_chat1"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/montserrat"
+                    android:text="DECLINE"
+                    android:textColor="@color/white"
+                    android:textSize="8dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/declinebtnHolder"
+                android:layout_marginEnd="10dp"
+                android:layout_centerVertical="true">
+
+                <ImageView
+                    android:id="@+id/say_hi_btn1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_centerHorizontal="true"
+                    android:backgroundTint="@color/orange"
+                    android:fontFamily="@font/montserrat"
+                    android:src="@drawable/ic_baseline_pan_tool_24"
+                    android:text="Connect+"
+                    android:textColor="@color/black"
+                    android:textSize="6sp" />
+
+                <TextView
+                    android:id="@+id/say_hi_user1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/say_hi_btn1"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/montserrat"
+                    android:text="@string/say_hi_"
+                    android:textColor="@color/white"
+                    android:textSize="8dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/txttagonlayouts1"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_toRightOf="@id/username_userfrag1"
+                android:background="@drawable/stroke_background"
+                android:gravity="center"
+                android:paddingHorizontal="10dp"
+                android:text="@string/loyalist"
+                android:textColor="@color/loyalist"
+                android:textSize="10sp"
+                app:strokeColor="@color/loyalist" />
+
+
+            <TextView
+                android:id="@+id/username_userfrag1"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginStart="5dp"
+                android:layout_toRightOf="@id/image_user_userfrag1"
+                android:fontFamily="@font/montserrat"
+                android:gravity="center"
+                android:text="@string/neha_dupia"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/image_user_userfrag1"
+                android:layout_width="49dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="5dp"
+                android:layout_centerVertical="true"
+                android:padding="5dp"
+                app:srcCompat="@drawable/userimageicon" />
+
+            <TextView
+                android:id="@+id/popularity_text_user1"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:gravity="center"
+                android:layout_below="@id/username_userfrag1"
+                android:layout_marginStart="5dp"
+                android:layout_toRightOf="@id/image_user_userfrag1"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/popularity_"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/lastMessage21"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:gravity="center"
+                android:layout_below="@id/username_userfrag1"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/popularity_text_user1"
+                android:fontFamily="@font/montserrat"
+                android:paddingHorizontal="5dp"
+                android:text="@string/new_popularity"
+                android:textColor="@color/orange"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
+

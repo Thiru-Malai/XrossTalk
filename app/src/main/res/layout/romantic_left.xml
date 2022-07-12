@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:padding="8dp"
+    android:id="@+id/leftchat"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/chat_image"
+        android:src="@drawable/user" />
+
+    <TextView
+        android:id="@+id/show_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/chat_image"
+        android:background="@drawable/romanticleftres"
+        android:fontFamily="@font/montserrat"
+        android:padding="8dp"
+        android:paddingStart="14dp"
+        android:paddingEnd="14dp"
+        android:text="Hello"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_Seen"
+        android:visibility="gone"
+        android:layout_marginLeft="5dp"
+        android:layout_below="@id/show_message" />
+
+
+</RelativeLayout>
