@@ -53,7 +53,7 @@ public class SendOTP extends AppCompatActivity {
         btnSendOTP = findViewById(R.id.btnSendOTP);
 
         from_email = "noreplyxrosstalk@gmail.com";
-        from_email_password = "xross@talk";
+        from_email_password = "rimfdlzxybgdqvvr";
         auth = FirebaseAuth.getInstance();
         ImageView prev = findViewById(R.id.otpback);
         prev.setOnClickListener(new View.OnClickListener() {
@@ -101,6 +101,9 @@ public class SendOTP extends AppCompatActivity {
                                         props.put("mail.smtp.starttls.enable", "true");
                                         props.put("mail.smtp.host", "smtp.gmail.com");
                                         props.put("mail.smtp.port", "587");
+                                        props.put("mail.imap.ssl.enable","true");
+                                        props.put("mail.imap.auth.mechanisms","XOAUTH2");
+
 
                                         Session session = Session.getInstance(props,
                                                 new Authenticator() {
